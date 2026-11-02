@@ -35,8 +35,13 @@ model_zoo/vrt/
 *.pt
 *.ckpt
 
-# Generated results / demo outputs
-results/
+# Generated results / demo outputs (keep the five demo GIFs referenced by README)
+results/*
+!results/vsr_demo.gif
+!results/deblur_demo.gif
+!results/denoise_demo.gif
+!results/vfi_demo.gif
+!results/stvsr_demo.gif
 /*.mp4
 *.log
 
